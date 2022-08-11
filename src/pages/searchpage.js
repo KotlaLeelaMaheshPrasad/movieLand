@@ -4,7 +4,7 @@ import MovieCard from 'C:/Users/K.Satya Krishna/Desktop/movieland/src/components
 import {Link} from 'react-router-dom';
 
 import {useEffect, useState} from 'react';
-const API_URL = "http://www.omdbapi.com?apikey=ea7da1d9";
+const API_URL = "https://www.omdbapi.com?apikey=ea7da1d9";
 
 const SearchPage = () => {
   const [searchTerm, setSearchTerm] = useState("");

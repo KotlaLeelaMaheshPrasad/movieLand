@@ -16,7 +16,7 @@ const Specm = () => {
     const [movie, setMovie] = useState({});
     
 
-const API_URL = "http://www.omdbapi.com?apikey=ea7da1d9";
+const API_URL = "https://www.omdbapi.com?apikey=ea7da1d9";
 
 useEffect(() => {
     console.log("hi");
